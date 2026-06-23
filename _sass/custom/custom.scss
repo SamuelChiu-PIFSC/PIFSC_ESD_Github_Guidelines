@@ -1,0 +1,386 @@
+// Custom button style
+.btn-custom {
+  background-color: #8DDCDC;
+  color: #264079; // Using your dark blue for the text for good contrast
+  border-color: #8DDCDC;
+
+  &:hover {
+    background-color: #79c8c8; // A slightly darker shade for hover
+    color: #264079;
+    border-color: #79c8c8;
+  }
+}
+main h1 {
+  color: #264079 !important;
+  font-weight: bold !important;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #f7fafa;
+  padding: 1rem 1.25rem;
+  border: 1px solid #dce1e6;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #264079;
+}
+
+.card ul {
+  padding-left: 1rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Set sidebar width */
+.side-bar {
+  width: 260px;
+}
+
+/* Fix main content spacing */
+// Hard override to center and constrain width of main content
+.main-content-wrap {
+  max-width: 1200px;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  float: none !important;
+  display: block !important;
+}
+
+
+/* Prevent text squish */
+.page {
+  max-width: 100%;
+  padding: 2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .main {
+    max-width: 100% !important;
+    margin-left: 0;
+  }
+
+  .main-content-wrap {
+    max-width: 100% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .side-bar {
+    position: fixed;
+    width: 260px;
+  }
+
+  .main {
+    margin-left: 260px !important;
+  }
+}
+
+/* =================================================================== */
+/* Styles for S2N Instructional Tabs                                   */
+/* =================================================================== */
+
+/* --- Main Tab Navigation --- */
+.inport-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #ccc;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.inport-tab {
+    padding: 0.5rem 1rem;
+    margin-right: 0.25rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.inport-tab.required {
+    font-weight: bold;
+    color: #003366;
+    background-color: #e6f2ff;
+}
+
+.inport-tab.active {
+    background-color: #ffffff;
+    border-bottom: 2px solid white;
+    position: relative;
+    top: 1px;
+}
+
+/* --- General Tab Content --- */
+.tab-content {
+    display: none;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-family: sans-serif;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* --- Shared Content Styles (Instruction Boxes, etc.) --- */
+.content-section {
+    margin-bottom: 40px;
+}
+.content-section h3 {
+    font-size: 1.2em;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.instruction-box {
+    background-color: #f7f9fc;
+    border: 1px solid #d6e0f0;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.instruction-box ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.instruction-box li {
+    margin-bottom: 8px;
+}
+.tab-content code {
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* --- Layout for Dates & Locations Tab --- */
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.field-group {
+    margin-bottom: 15px;
+}
+.field-group strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #c9302c; /* Red label */
+}
+.field-group p,
+.field-group ul {
+    margin: 0;
+}
+.nested-list {
+    padding-left: 20px;
+}
+
+/* --- Layout for Data Types Tab --- */
+.data-type-dl {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 15px 20px;
+    align-items: start;
+}
+.data-type-dl dt {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 2px;
+}
+.data-type-dl dd {
+    margin: 0;
+}
+
+/* --- Layout for Package Summary Tab --- */
+#package-summary .summary-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+#package-summary .summary-label {
+    font-weight: bold;
+    text-align: right;
+}
+#package-summary .required-star {
+    color: #c9302c;
+}
+#package-summary .summary-content {
+    background-color: #f7f9fc;
+    border: 1px solid #d6e0f0;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 50px;
+}
+#package-summary .note {
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+#package-summary .note ul {
+    padding-left: 20px;
+    margin: 5px 0 0 0;
+}
+
+
+/* --- Layout for Update & Submit Tab --- */
+.action-box {
+    background-color: #e7f4e4;
+    border: 1px solid #c8e6c9;
+    border-left: 5px solid #4CAF50;
+    color: #2e7d32;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.warning-box {
+    background-color: #fffbe6;
+    border: 1px solid #ffe58f;
+    border-left: 5px solid #ffc107;
+    color: #856404;
+    border-radius: 5px;
+    padding: 20px;
+}
+.action-box h4, .warning-box h4 {
+    margin-top: 0;
+}
+.action-box ul, .warning-box ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Space between cards */
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .info-card {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, basis */
+    max-width: 350px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+  }
+
+  .info-card h3 {
+    margin-top: 0;
+    color: #003366; /* Dark blue from your theme */
+  }
+
+  .info-card p {
+    flex-grow: 1; /* Pushes the button to the bottom */
+    color: #333;
+  }
+
+  /* Re-using your button style */
+  .info-card .btn {
+    text-decoration: none;
+  }
+  .card-style {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px; /* Softer corners */
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-bottom: 2rem; /* Add space below each card */
+  }
+
+  .card-style:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-style h3 {
+    margin-top: 0;
+    color: #003366; /* Darker blue for contrast */
+  }
+
+  /* --- Styles for the Stage Buttons Grid --- */
+  .stage-button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 1rem; /* Sets the space between buttons */
+    margin-top: 1rem; /* Space below the H3 and above the buttons */
+  }
+
+  /* Ensure buttons fill their grid space */
+  .stage-button-grid .btn {
+    width: 100%;
+    margin: 0; /* Remove original margins to fit grid */
+    text-align: center; /* Center text within buttons */
+  }
+
+  /* --- Styles for the two bottom cards container --- */
+  .bottom-cards-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    gap: 1.5rem; /* Space between the two bottom cards */
+    margin-top: 0; /* Reset margin from previous attempts */
+    max-width: 100%; /* Ensure container doesn't overflow */
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  }
+
+  /* Apply card-style to individual bottom cards */
+  .bottom-cards-container .card-style {
+    flex: 1; /* Allow cards to grow and shrink */
+    min-width: 300px; /* Minimum width before wrapping */
+    max-width: 45%; /* Max width to keep them from becoming too wide in a two-column layout */
+    margin-bottom: 0; /* Reset specific margin */
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .stage-button-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+    .bottom-cards-container .card-style {
+      max-width: 90%; /* Allow single column to take more width on small screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stage-button-grid {
+      grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+    .bottom-cards-container {
+      flex-direction: column; /* Stack cards vertically on very small screens */
+      align-items: center; /* Center stacked cards */
+    }
+  }
+  .card-centered-text {
+    text-align: center;
+  }
