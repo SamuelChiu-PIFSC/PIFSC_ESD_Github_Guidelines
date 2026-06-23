@@ -82,5 +82,6 @@ just_the_docs:
     - /assets/css/custom.css
 
 sass:
+  sass_dir: _sass
   style: compressed
-
+  uiet_deps: true

@@ -1,8 +1,10 @@
 ---
-layout: single
+layout: page
 title: "Project Workflows"
 permalink: /project-workflows/
+nav_order: 3
 ---
+
 ```text
 [Start Project] ➔ Create Repo (GitHub) ➔ Clone to RStudio
                           │
@@ -18,7 +20,6 @@ permalink: /project-workflows/
             ▼
 [Publish Paper] ➔ Tag Code Version for Reproducibility
 ```
-
 
 ## Phase 1: Project Initialization (Done Once per Project)
 
@@ -70,6 +71,7 @@ Whenever you change something small, give it a commit.
 
 ### Step 3: Share and Peer Review
 When your code is ready and runs without errors, push it to the cloud for the lab to review:
+
 ```bash
 # Push your branch to GitHub for the first time
 git push --set-upstream origin yourname/add-linear-models
@@ -87,6 +89,7 @@ If a colleague updates a data-cleaning script or fixes a bug on the main branch 
 
 1. Save and commit any active work on your branch so your workspace is clean.
 2. Run the sync commands in your terminal:
+
 ```bash
 # Download the latest repository updates from GitHub
 git fetch origin
@@ -115,6 +118,7 @@ When your manuscript is ready for submission or has been accepted, create an imm
 
 1. Make sure all your final code is successfully merged into the main branch and pulled to your local machine.
 2. In the terminal, create a permanent, annotated version tag:
+
 ```bash
 git tag -a v1.0-publication -m "Code base used for manuscript submission to Nature Methods 2026"
 ```
