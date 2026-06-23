@@ -2,7 +2,7 @@
 layout: page
 title: "Cybersecurity & Git 'Do Nots'"
 permalink: /cybersecurity/
-nav_order: 2
+nav_order: 3
 ---
 
 ## The Golden Rule of GitHub

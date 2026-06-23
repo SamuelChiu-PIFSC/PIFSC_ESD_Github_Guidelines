@@ -2,7 +2,7 @@
 layout: page
 title: "Git Terminal Cheatsheet"
 permalink: /cli-cheatsheet/
-nav_order: 6
+nav_order: 7
 ---
 
 > 📌 **Prerequisite:** Open the **Terminal** tab in RStudio (located right next to the Console) or your system terminal. Make sure you are in your active project directory. You can type `pwd` to check your current directory location and `git status` to check the status of your workspace.

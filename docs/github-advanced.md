@@ -2,7 +2,7 @@
 layout: page
 title: "Advanced GitHub Features"
 permalink: /github-advanced/
-nav_order: 8
+nav_order: 9
 ---
 
 ## GitHub Pages
