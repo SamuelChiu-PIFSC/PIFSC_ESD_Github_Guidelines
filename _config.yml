@@ -7,11 +7,10 @@ baseurl: "/NOAA-Github_Guide"
 
 aux_links:
   Github Profile: https://github.com/SamuelChiu-NOAA
-  PIFSC Gtihub: 
+  PIFSC Github: https://github.com/noaa-pifsc
 
 # The GitHub repository for your site
 repository: SamuelChiu-NOAA/NOAA-Github_Guidelines
-
 
 
 # Enable the site search

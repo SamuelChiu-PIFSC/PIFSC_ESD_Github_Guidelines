@@ -61,3 +61,6 @@ The generated static site files are written to `_site/` by Jekyll. If you need t
 - This repository is not a generic Just the Docs template anymore; it is customized for NOAA GitHub guidelines.
 - The site navigation order is controlled by each page's `nav_order` front matter value.
 - The homepage is served from `index.md`, while most content pages live under `docs/`.
+
+## Disclaimer
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.

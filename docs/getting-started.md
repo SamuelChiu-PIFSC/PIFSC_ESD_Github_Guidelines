@@ -16,7 +16,7 @@ Welcome to the team! This guide will get your environment set up and introduce y
 Before writing code, you need a centralized profile to track your contributions.
 
 1. Go to [GitHub.com](https://github.com) and click **Sign Up**.
-2. **Username Convention:** If creating a new account for work, we recommend a clean format such as `FirstnameLastname-` (e.g., `SamuelChiu-NOAA`) or your standard agency format.
+2. **Username Convention:** If creating a new account for work, we recommend a clean format such as `FirstnameLastname-NOAA` (e.g., `SamuelChiu-NOAA`) or your standard agency format.
 3. **Email:** Use your official `.gov` email address. This ensures your code commits are automatically verified and linked to your organization profile.
 4. **Security:** Enable Two-Factor Authentication (2FA) immediately via your account settings. This is mandatory for accessing our organization's repositories.
 
