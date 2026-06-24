@@ -2,8 +2,10 @@
 layout: page
 title: "Project Workflows"
 permalink: /project-workflows/
-nav_order: 4
+nav_order: 5
 ---
+
+# Project Workflow
 
 ```text
 [Start Project] ➔ Create Repo (GitHub) ➔ Clone to RStudio

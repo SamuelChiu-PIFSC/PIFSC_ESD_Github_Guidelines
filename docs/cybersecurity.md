@@ -2,8 +2,10 @@
 layout: page
 title: "Cybersecurity & Git 'Do Nots'"
 permalink: /cybersecurity/
-nav_order: 3
+nav_order: 4
 ---
+
+# Cybersecurity; What *NOT* to do
 
 ## The Golden Rule of GitHub
 Assume that **anything you commit to Git is permanent**, and **anything you push to GitHub can be seen by the entire world**. Even if your repository is currently private, security practices must remain strict to prevent catastrophic accidental leaks.

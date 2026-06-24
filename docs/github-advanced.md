@@ -2,8 +2,10 @@
 layout: page
 title: "Advanced GitHub Features"
 permalink: /github-advanced/
-nav_order: 9
+nav_order: 10
 ---
+
+# Advanced Features of Github
 
 ## GitHub Pages
 GitHub Pages lets you publish your site directly from a repository branch. For scientific projects, this is a great way to host documentation, tutorials, or lab project portals without extra server setup.

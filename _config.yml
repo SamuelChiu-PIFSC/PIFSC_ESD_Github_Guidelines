@@ -83,7 +83,7 @@ just_the_docs:
 sass:
   sass_dir: _sass
   style: compressed
-  uiet_deps: true
+  quiet_deps: true
 
 # Favicon configuration
 favicon_ico: "/assets/images/favicon/favicon.ico"

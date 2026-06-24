@@ -2,12 +2,14 @@
 layout: page
 title: "NOAA Requirements"
 permalink: /noaa-requirements/
-nav_order: 6
+nav_order: 7
 ---
+
+# Link to NOAA SOP to get on PIFSC Github
 
 ## PIFCS ESD Github Requirements
 
-Please refer to this Standard operating procedure to prepare your github repository for elegibility to be placed on the PIFSC ESD Githubv . 
+Please refer to this Standard operating procedure (NOAA Internal Only) to prepare your github repository for elegibility to be placed on the PIFSC ESD Githubv . 
 
 * 🔗 **[PIFSC Github SOP](https://docs.google.com/document/d/1ELEi2-8SPGLrnssYO-aZ5JjDFZC_CkDHx2ow1AQ9cSE/edit?tab=t.0)**
 

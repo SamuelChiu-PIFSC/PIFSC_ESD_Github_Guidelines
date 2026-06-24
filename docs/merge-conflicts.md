@@ -2,8 +2,10 @@
 layout: page
 title: "Handling Merge Conflicts Safely"
 permalink: /merge-conflicts/
-nav_order: 5
+nav_order: 6
 ---
+
+# Merge Conflicts
 
 ## Why Do Merge Conflicts Happen?
 

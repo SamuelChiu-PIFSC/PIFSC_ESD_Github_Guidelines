@@ -2,8 +2,10 @@
 layout: page
 title: "RStudio Git Cheatsheet"
 permalink: /rstudio-cheatsheet/
-nav_order: 8
+nav_order: 9
 ---
+
+# R Studio Cheatsheet
 
 > 📌 **Prerequisite:** Make sure you are in the correct RStudio Project (`.Rproj`) linked to your GitHub repository. Your Git controls live in the **Git Pane** (usually located in the top-right quadrant of RStudio next to the Environment and History tabs).
 
