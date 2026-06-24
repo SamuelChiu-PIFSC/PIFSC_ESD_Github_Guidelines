@@ -84,7 +84,3 @@ sass:
   sass_dir: _sass
   style: compressed
   quiet_deps: true
-
-# Favicon configuration
-favicon_ico: "/assets/images/favicon/favicon.ico"
-apple_touch_icon: "/assets/images/favicon/apple-touch-icon.png"
