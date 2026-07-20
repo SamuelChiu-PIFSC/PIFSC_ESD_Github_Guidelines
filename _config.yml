@@ -6,12 +6,11 @@ url: https://SamuelChiu-NOAA.github.io
 baseurl: "/PIFSC-ESD-Github_Guide"
 
 aux_links:
-  Github Profile: https://github.com/SamuelChiu-NOAA
-  PIFSC Github: https://github.com/noaa-pifsc
+  "Github Profile": "https://github.com/SamuelChiu-NOAA"
+  "PIFSC Github": "https://github.com/noaa-pifsc"
 
 # The GitHub repository for your site
 repository: SamuelChiu-NOAA/NOAA-Github_Guidelines
-
 
 # Enable the site search
 search_enabled: true
@@ -29,14 +28,11 @@ mermaid:
 # Enable heading anchor links
 heading_anchors: true
 
-
-
 # Custom footer text
 footer_content: "Questions? Reach out to the Data Services Team!"
 
 # "Back to top" link
 back_to_top: false
-
 
 # The custom color scheme we created
 color_scheme: pifsc
@@ -53,9 +49,6 @@ callouts:
 # -----------------------------------------------------------------------------
 # Build Settings
 # -----------------------------------------------------------------------------
-
-# The theme we are using
-theme: just-the-docs
 
 # List of plugins
 plugins:
