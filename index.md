@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Overview"
+title: "1. Overview"
 permalink: /
 nav_order: 1
 ---
 
-# NOAA GitHub Guidelines
+# PIFSC ESD GitHub Guidelines
 
-Welcome to the central documentation hub for version control, data workflows, and repository management. This workspace is designed specifically for NOAA scientists, researchers, and developers to ensure our code remains secure, organized, and easily maintainable.
+Welcome to the central documentation hub for version control, data workflows, and repository management. This workspace is designed specifically for PIFSC ESD scientists, researchers, and developers to ensure our code remains secure, organized, and easily maintainable.
 
 ---
 
@@ -25,7 +25,7 @@ We have organized our guidelines into specific sections to support your workflow
 
 ### 🛠️ Advanced Skills & Compliance
 * **[Handling Merge Conflicts]({{ site.baseurl }}/docs/merge-conflicts/)**: A dedicated guide to dealing with history collisions. Learn how to read Git conflict markers and confidently stitch conflicting lines of code back together.
-* **[NOAA Requirements]({{ site.baseurl }}/docs/noaa-requirements/)**: Review institutional mandates, public code access laws, and specific repository policies tailored to tracking code within our agency.
+* **[PIFSC Requirements]({{ site.baseurl }}/docs/noaa-requirements/)**: Review institutional mandates, public code access laws, and specific repository policies tailored to tracking code within our agency.
 
 ### 📝 Quick Reference Sheets
 * **[CLI Cheat Sheet]({{ site.baseurl }}/docs/cli-cheatsheet/)**: A handy reference for the core Terminal/Git Bash commands you will use every day.

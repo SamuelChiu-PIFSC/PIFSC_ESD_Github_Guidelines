@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Handling Merge Conflicts Safely"
+title: "7. Handling Merge Conflicts"
 permalink: /merge-conflicts/
-nav_order: 6
+nav_order: 7
 ---
 
 # Merge Conflicts

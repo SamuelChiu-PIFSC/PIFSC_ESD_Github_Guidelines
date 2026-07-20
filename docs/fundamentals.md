@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Git & GitHub Fundamentals"
+title: "3. Git & GitHub Fundamentals"
 permalink: /fundamentals/
 nav_order: 3
 ---

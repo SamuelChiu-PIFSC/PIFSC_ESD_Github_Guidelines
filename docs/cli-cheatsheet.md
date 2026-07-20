@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Git Terminal Cheatsheet"
+title: "9. Git Terminal Cheatsheet"
 permalink: /cli-cheatsheet/
-nav_order: 8
+nav_order: 9
 ---
 
 # Terminal Cheat Sheet

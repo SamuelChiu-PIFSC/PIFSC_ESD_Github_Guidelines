@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Project Workflows"
+title: "6. Project Workflows"
 permalink: /project-workflows/
-nav_order: 5
+nav_order: 6
 ---
 
 # Project Workflow

@@ -1,9 +1,9 @@
-title: "NOAA Github Guide"
+title: "PIFSC ESD Github Guide"
 description: "A practical guide to version control, Git, and GitHub tailored specifically for NOAA scientists and researchers."
 theme: just-the-docs
 
 url: https://SamuelChiu-NOAA.github.io
-baseurl: "/NOAA-Github_Guide"
+baseurl: "/PIFSC-ESD-Github_Guide"
 
 aux_links:
   Github Profile: https://github.com/SamuelChiu-NOAA

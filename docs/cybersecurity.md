@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Cybersecurity & Git 'Do Nots'"
+title: "4. Cybersecurity & Git 'Do Nots'"
 permalink: /cybersecurity/
 nav_order: 4
 ---

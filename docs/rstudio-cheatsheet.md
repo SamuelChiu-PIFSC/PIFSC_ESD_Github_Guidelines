@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "RStudio Git Cheatsheet"
+title: "10. RStudio Git Cheatsheet"
 permalink: /rstudio-cheatsheet/
-nav_order: 9
+nav_order: 10
 ---
 
 # R Studio Cheatsheet
