@@ -1,4 +1,4 @@
-# NOAA GitHub Guidelines
+# PIFSC ESD GitHub Guidelines
 
 This repository hosts a Jekyll-based documentation site built with the `just-the-docs` theme. It is intended to collect NOAA-specific GitHub best practices, workflows, and reference material in a simple static site.
 
