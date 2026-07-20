@@ -25,7 +25,7 @@ This repository hosts a Jekyll-based documentation site built with the `just-the
 
 ## Purpose of this repository
 
-The site is a lightweight documentation hub for NOAA GitHub usage. It is organized into a homepage plus topic pages that appear in the navigation sidebar. The current structure is designed to support:
+The site is a lightweight documentation hub for ESD GitHub usage. It is organized into a homepage plus topic pages that appear in the navigation sidebar. The current structure is designed to support:
 
 - an introductory Getting Started guide,
 - project workflow recommendations,
