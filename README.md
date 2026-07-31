@@ -58,7 +58,7 @@ The generated static site files are written to `_site/` by Jekyll. If you need t
 
 ## Notes
 
-- This repository is not a generic Just the Docs template anymore; it is customized for NOAA GitHub guidelines.
+- This repository is not a generic Just the Docs template anymore; it is customized for PIFSC GitHub guidelines.
 - The site navigation order is controlled by each page's `nav_order` front matter value.
 - The homepage is served from `index.md`, while most content pages live under `docs/`.
 
