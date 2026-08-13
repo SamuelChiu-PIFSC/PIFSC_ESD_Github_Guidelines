@@ -64,7 +64,9 @@ The generated static site files are written to `_site/` by Jekyll. If you need t
 
 ### Contact
 If you have any questions please reach out to me via my NOAA email or professional email.
+
 NOAA email: samuel.chiu@noaa.gov
+
 professional: samueldc@hawaii.edu
 
 ## Disclaimer
