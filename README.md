@@ -2,8 +2,6 @@
 
 This repository hosts a Jekyll-based documentation site built with the `just-the-docs` theme. It is intended to collect PIFSC-specific GitHub best practices, workflows, and reference material in a simple static site.
 
-Contact: samuel.chiu@noaa.gov or samueldc@hawaii.edu
-
 ## What this directory contains
 
 - `index.md` — the site homepage, currently showing the Overview content.
